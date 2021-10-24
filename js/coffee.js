@@ -46,7 +46,7 @@ function eventListeners(){
             let customer = new Customer(name,lastname,email,gender);
             // console.log(customer);
             ui.addCustomer(customer);
-            ui.showfeedback('customer added to the list', 'success')
+            ui.showfeedback('Congratulation ! You are added to list', 'success')
             ui.clearFields();
        
         }else{
