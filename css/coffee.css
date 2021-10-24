@@ -560,6 +560,7 @@
 
 /* contact section  */
 .contact-container{
+    background: rgba(255, 166, 0, 0.822);
     max-width: 160vh;
     margin:0 auto;
     display: grid;
@@ -577,7 +578,7 @@
 
 .contact-item_icon{
     font-size: 3rem;
-    color:rgba(255, 145, 0, 0.808);
+    color:brown;
 }
 .contact-item_title{
     text-transform: uppercase;
@@ -591,9 +592,11 @@
     color:grey;
 }
 
- .contact-map{
-     width:95%
- }
+.contact-map{
+    width:96%;
+    padding-left:2%;
+}
+
 
 @media screen and (min-width:768px){
     .contact-info{
@@ -601,7 +604,8 @@
         order:-1;
     }
     .contact-map{
-        width:99%;     
+        width:90% ; 
+        padding-left:40px;
     }
 }
 
